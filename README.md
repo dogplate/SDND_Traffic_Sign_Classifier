@@ -16,8 +16,11 @@ The goals / steps of this project are the following:
 
 #### Load data set
 Number of training examples = 34799
+
 Number of testing examples = 12630
+
 Image data shape = (32, 32, 3)
+
 Number of classes = 43
 
 ![alt text](./examples/1_.png)
@@ -43,20 +46,29 @@ the image data should be normalized so that the data has mean zero and equal var
 
 ![alt text](./examples/4_accuracy.png)
 
+
 Validation Accuracy = 0.962
+
 Test Accuracy = 0.946
+
 #### Predictions on new images
 
 ![alt text](./examples/5_new.png)
 
 model prediction : [2, 39, 26, 31, 12]
+
 answer     : [2, 39, 26, 31, 12]
 
 Image 1 Accuracy = 1
+
 Image 2 Accuracy = 1
+
 Image 3 Accuracy = 1
+
 Image 4 Accuracy = 1
+
 Image 5 Accuracy = 1
+
 Total Accuracy : 100.0%
 
 ![alt text](./examples/6_result1.png)
