@@ -30,8 +30,10 @@ Augment the training data set by rotating and moving exist images
 the image data should be normalized so that the data has mean zero and equal variance. So I use *standard deviation* 
 
 ![alt text](./examples/2-1.png)
+
 ±10 degree rotation
 3 pixel movement
+
 ![alt text](./examples/3_barh2.png)
 
 #### Train and test a model
@@ -44,6 +46,7 @@ Test Accuracy = 0.946
 #### Predictions on new images
 
 ![alt text](./examples/5_new.png)
+
 model prediction : [2, 39, 26, 31, 12]
 answer     : [2, 39, 26, 31, 12]
 
