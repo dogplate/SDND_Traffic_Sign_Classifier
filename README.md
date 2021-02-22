@@ -36,7 +36,7 @@ the image data should be normalized so that the data has mean zero and equal var
 
 #### Train and test a model
 
-![alt text](./examples/0_vggnet.png)
+![alt text](./examples/vggnet.png)
 
 ![alt text](./examples/4_accuracy.png)
 Validation Accuracy = 0.962
