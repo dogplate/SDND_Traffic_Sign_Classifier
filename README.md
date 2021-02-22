@@ -32,6 +32,7 @@ the image data should be normalized so that the data has mean zero and equal var
 ![alt text](./examples/2-1.png)
 
 ±10 degree rotation
+
 3 pixel movement
 
 ![alt text](./examples/3_barh2.png)
@@ -41,6 +42,7 @@ the image data should be normalized so that the data has mean zero and equal var
 ![alt text](./examples/vggnet.png)
 
 ![alt text](./examples/4_accuracy.png)
+
 Validation Accuracy = 0.962
 Test Accuracy = 0.946
 #### Predictions on new images
