@@ -38,7 +38,7 @@ Augment the training data set by rotating and moving exist images
 
 ![alt text](./examples/3_barh2.png)
 
-All the images were normalized so that the data has a mean of zero and equal variance. This helps the model converge faster. Since there was an uneven distribution of the number of images for each class as shown in the histogram of the training set images, I added augmented images for some classes such that the minimum number of images in each class is 1200 images. For the augmented images, I applied a transform function which 10 degrees rotates and moves the input image. The total number of training images before & after augmentation were 34799 & 55860 respectively.
+All the images were normalized so that the data has a mean of zero and equal variance. This helps the model converge faster. Since there was an uneven distribution of the number of images for each class as shown in the histogram of the training set images, I added augmented images for some classes such that the number of images in each class is less than 1200 images. For the augmented images, I applied a transform function which 10 degrees rotates and moves 3 pixles the input image. The total number of training images before & after augmentation were 34799 & 55860 respectively.
 
 #### Train and test a model
 
@@ -59,9 +59,14 @@ To train the model, I used the following hyperparameters after some experimentat
 
 ![alt text](./examples/5_new.png)
 
+It wasn't easy to find examples which are of bad quality and could be a problem for the classifier. Most of the new found images are clear and I expected that the model should work properly for most of them. I noticed that when the accuracy on the test set was about 90% (before final model tuning) at least one of the new images shown here was wrongly classified. When test set accuracy went to the final 94.6% all 5 new images were classified perfectly.
+
+Here are the results of the prediction:
+
 model prediction : [2, 39, 26, 31, 12]
 
 answer     : [2, 39, 26, 31, 12]
+
 
 Image 1 Accuracy = 1
 
